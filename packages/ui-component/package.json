@@ -1,0 +1,19 @@
+{
+  "name": "@app/ui-component",
+  "version": "1.0.0",
+  "description": "Types package",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Vadym Tomilenko",
+  "license": "ISC",
+  "dependencies": {
+    "@app/types": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.0"
+  }
+}
